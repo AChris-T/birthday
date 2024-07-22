@@ -73,7 +73,7 @@ const LandingPage = () => {
       <img src={over} alt="" className="hidden md:flex" />
       </div>
       <div className="absolute flex-col md:flex-row flex justify-between  gap-5 lg:gap-10 mt-[-700px] lg:mt-[-300px] md:mt-[-450px] items-center">
-            <div className="bg-[#F06633] w-[150px] md:w-[120px] lg:w-[150px] h-[150px]rounded-2xl flex flex-col items-center justify-center text-[white]">
+            <div className="bg-[#F06633] w-[150px] md:w-[120px] lg:w-[150px] h-[150px] rounded-2xl flex flex-col items-center justify-center text-[white]">
             <p className="text-[40px] font-semibold">{timeLeft.days || 0}</p>
             <p>Days</p>
             </div>
