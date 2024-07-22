@@ -113,7 +113,7 @@ const LandingPage = () => {
                <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-2 ">
                 <CiCalendar className="w-[20px] h-10 text-[tomato] " />
-                <h3 className="text-[15px] text-gray-500 font-bold"> 31sth August, 2024</h3>
+                <h3 className="text-[15px] text-gray-500 font-bold"> 31st August, 2024</h3>
                 </div>
                 <div className="flex  items-center gap-2 mt-[-10px]">
                 <MdAccessTime className="w-[20px] h-10 text-[tomato] " />
@@ -132,15 +132,15 @@ const LandingPage = () => {
             <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-2 ">
                 <CiCalendar className="w-[20px] h-10 text-[tomato] " />
-                <h3 className="text-[15px] text-gray-500 font-bold"> 31sth August, 2024</h3>
+                <h3 className="text-[15px] text-gray-500 font-bold"> 1st September, 2024</h3>
                 </div>
                 <div className="flex  items-center gap-2 mt-[-10px]">
                 <MdAccessTime className="w-[20px] h-10 text-[tomato] " />
-                <h3 className="text-[15px] text-gray-500 font-bold">3pm (No Africa time)</h3>
+                <h3 className="text-[15px] text-gray-500 font-bold">10 a.m (No Africa time)</h3>
                 </div>
                 <div className="flex  items-center gap-2 mt-[-10px]">
                 <CiLocationOn className="w-[20px] h-10 text-[tomato] " />
-                <h3 className="text-[15px] text-gray-500 font-bold">Church on the Hill Event hall <br/> 5500  Alessandro Blvd Riverside,<br/> CA 92506</h3>
+                <h3 className="text-[15px] text-gray-500 font-bold">RCCG,Arise Church  5750 <br/>  Division street,Suite 204,<br/> Riverside,CA 92506</h3>
                 </div>
                 </div>
                 </div>
