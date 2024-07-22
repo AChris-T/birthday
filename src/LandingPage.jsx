@@ -37,16 +37,16 @@ const LandingPage = () => {
     
   return (
     <div className="max-w-[1440px] overflow-hidden mx-auto">
-    <div className="hero px-4 md:px-0 md:pl-16 w-full h-full ">
+    <div className="w-full h-full px-4 hero md:px-0 md:pl-16 ">
         <div className="pt-10">
         <p className="txt text-[#243568] text-[32px] flex md:text-balance text-center"> Ayodeji Samson Anifowose</p>
         </div>
-        <div className="flex flex-col-reverse md:flex-row justify-around  mt-[82px]">
-            <div className="pix mt-5">
+        <div className="flex flex-col md:flex-row justify-around  mt-[82px]">
+            <div className="mt-5 pix">
                 <img src={bg} alt="" width={"420px"}/>
 
             </div>
-            <div className="flex flex-col justify-center items-center gap-4">
+            <div className="flex flex-col items-center justify-center gap-4">
                 <h3 className="text-[18px] font-medium text-[#243568]">You are invited to</h3>
                 <h2 className="txt text-[#FE9ACC] text-[42px] md:text-balance text-center">Ayodeji Samson Anifowose</h2>
                 <h2 className="txt text-[#243568] text-[42px]">40th Birthday</h2>
@@ -66,14 +66,14 @@ const LandingPage = () => {
             6.5z">    
          </path>
       </svg>
-      <div className="flex md:mx-20 justify-center flex-col items-center">
+      <div className="flex flex-col items-center justify-center md:mx-20">
       <h2 className="txt text-[62px] text-[#243568] flex text-center">You Are Invited</h2>
       <h3 className="-mt-2 text-[#0b101f] font-bold px-10 flex text-center">Join us for a fun-filled celebration as we mark a special milestone!</h3>
-      <div className="inpic md:w-[100%] lg:w-[80%] w-full h-[120vh] md:h-[50%] overflow-hidden  mt-10  ">
+      <div className="inpic md:w-[100%] lg:w-[80%] w-full h-[150vh] md:h-[50%] overflow-hidden  mt-10  ">
       <img src={over} alt="" className="hidden md:flex" />
       </div>
       <div className="absolute flex-col md:flex-row flex justify-between  gap-5 lg:gap-10 mt-[-700px] lg:mt-[-300px] md:mt-[-450px] items-center">
-            <div className="bg-[#F06633] w-[150px] md:w-[120px] lg:w-[150px] h-[150px]   rounded-2xl flex flex-col items-center justify-center text-[white]">
+            <div className="bg-[#F06633] w-[150px] md:w-[120px] lg:w-[150px] h-[150px]rounded-2xl flex flex-col items-center justify-center text-[white]">
             <p className="text-[40px] font-semibold">{timeLeft.days || 0}</p>
             <p>Days</p>
             </div>
@@ -90,7 +90,7 @@ const LandingPage = () => {
             <p>Seconds</p>
             </div>     
         </div>
-        <div className="flex justify-center md:justify-start px-5 items-center  flex-wrap gap-10 lg:ml-20 mt-10 mb-10">
+        <div className="flex flex-wrap items-center justify-center gap-10 px-5 mt-10 mb-10 md:justify-start lg:ml-20">
             <div className="flex flex-col ">
                 <h3 className="text-[#243568] font-extrabold">Contact Info</h3>
                 <div className="flex flex-col gap-4">
@@ -146,7 +146,7 @@ const LandingPage = () => {
                 </div>
         </div>
         <p className="mb-10 flex text-center text-[tomato] font-extrabold ">Dress Code: Royal Blue and Beige.</p>
-        <p className="mb-10 flex text-center">Please confirm your attendance by clicking this button.</p>
+        <p className="flex mb-10 text-center">Please confirm your attendance by clicking this button.</p>
         <button className="bg-[#88D4F2] text-white px-4 py-2 border-[2px] border-[#45B3DF] rounded-full">Attendance</button>
 
 
