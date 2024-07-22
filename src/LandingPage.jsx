@@ -47,7 +47,7 @@ const LandingPage = () => {
 
             </div>
             <div className="flex flex-col items-center justify-center gap-4">
-                <h3 className="text-[18px] font-medium text-[#243568]">You are invited to</h3>
+                <h3 className="text-[18px] font-medium text-[#243568] mt-[30px] md:mt-0">You are invited to</h3>
                 <h2 className="txt text-[#FE9ACC] text-[42px] md:text-balance text-center">Ayodeji Samson Anifowose</h2>
                 <h2 className="txt text-[#243568] text-[42px]">40th Birthday</h2>
                 <button className="bg-[#88D4F2] text-white px-4 py-2 border-[2px] z-10 border-[#45B3DF] rounded-full">Aug 31st - Sep 01 2024</button>
@@ -67,7 +67,7 @@ const LandingPage = () => {
          </path>
       </svg>
       <div className="flex flex-col items-center justify-center md:mx-20">
-      <h2 className="txt text-[62px] text-[#243568] flex text-center mt-[20px] md:mt-0">You Are Invited</h2>
+      <h2 className="txt text-[62px] text-[#243568] flex text-center ">You Are Invited</h2>
       <h3 className="-mt-2 text-[#0b101f] font-bold px-10 flex text-center">Join us for a fun-filled celebration as we mark a special milestone!</h3>
       <div className="inpic md:w-[100%] lg:w-[80%] w-full h-[180vh] md:h-[50%] overflow-hidden  mt-10  ">
       <img src={over} alt="" className="hidden md:flex" />
