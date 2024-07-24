@@ -1,6 +1,6 @@
 
 const images = [
-   {src:"../src/assets/1.JPG", alt:"1"},
+   {src:"../src/assets/yi.png", alt:"1"},
    {src:"../src/assets/2.JPG", alt:"1"},
    {src:"../src/assets/3.JPG", alt:"1"},
    {src:"../src/assets/4.JPG", alt:"1"},
