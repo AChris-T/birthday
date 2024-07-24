@@ -38,7 +38,7 @@ const Momemt = () => {
          </path>
       </svg>
         <div className="flex flex-col items-center justify-center mb-16 text-center md:mx-24">
-        <h2 className="txt text-[45px] font-extrabold text-[#3869fd] ">Birthday Moment</h2>
+        <h2 className="txt text-[45px] font-extrabold text-[#3869fd] mb-10">Birthday Moment</h2>
       <div className='grid grid-cols-2 gap-4 mx-5 lg:grid-cols-4 md:grid-cols-3'>     
     {images.map((image,index)=>{
       return(
