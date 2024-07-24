@@ -4,7 +4,7 @@ import over from "./assets/overlay.png"
 import { useEffect, useState } from "react";
 
 const images = [
-  {src:"./assets/yi.png", alt:"1"},
+  {src:"/assets/yi.png", alt:"1"},
   {src:"../src/assets/2.JPG", alt:"2"},
   {src:"../src/assets/3.JPG", alt:"3"},
   {src:"../src/assets/4.JPG", alt:"4"},
@@ -123,9 +123,7 @@ const LandingPage = () => {
     </div>
     {images.map((image,index)=>{
       return(
-         <a href={image.src} key={index}>
-         <img src={image.src} alt={images.alt}/>
-         </a>
+         <img src={image.src} alt={images.alt} key={index}/>
       )
     })}
  
