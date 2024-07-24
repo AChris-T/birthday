@@ -2,7 +2,7 @@ import bg from "../src/assets/new.png"
 import React from 'react';
 
 const imagePaths = [
-   'neww.png',
+   '../src/assets/new.png',
    'image2.jpg',
    'image3.jpg'
  ];
