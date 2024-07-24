@@ -1,4 +1,14 @@
 import img1 from "../src/assets/1.png"
+import img2 from "../src/assets/2.png"
+import img3 from "../src/assets/4.png"
+import img4 from "../src/assets/4.png"
+import img5 from "../src/assets/5.png"
+import img6 from "../src/assets/6.png"
+import img7 from "../src/assets/7.png"
+import img8 from "../src/assets/8.png"
+import img9 from "../src/assets/8.png"
+import img10 from "../src/assets/8.png"
+
 const Momemt = () => {
   return (
     <div className="bg-[#F5F5DC] mt-[100px]">
@@ -19,7 +29,16 @@ const Momemt = () => {
       <div className='grid grid-cols-2 gap-4 mx-5 lg:grid-cols-4 md:grid-cols-3'>     
 
          <img src={img1} alt="img"/>
-  
+         <img src={img2} alt="img"/>
+         <img src={img3} alt="img"/>
+         <img src={img4} alt="img"/>
+         <img src={img5} alt="img"/>
+         <img src={img6} alt="img"/>
+         <img src={img7} alt="img"/>
+         <img src={img8} alt="img"/>
+         <img src={img9} alt="img"/>
+         <img src={img10} alt="img"/>
+
     </div>
 
         </div>
