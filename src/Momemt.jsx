@@ -1,12 +1,4 @@
-import LightGallery from 'lightgallery/react';
 
-// import styles
-import 'lightgallery/css/lightgallery.css';
-import 'lightgallery/css/lg-zoom.css';
-import 'lightgallery/css/lg-thumbnail.css';
-
-import lgThumbnail from 'lightgallery/plugins/thumbnail';
-import lgZoom from 'lightgallery/plugins/zoom';
 
 
 const images = [
@@ -15,9 +7,10 @@ const images = [
    {src:"/public/3.JPG", alt:"1"},
    {src:"/public/4.JPG", alt:"1"},
    {src:"/public/5.JPG", alt:"1"},
+   {src:"/public/6.JPG", alt:"1"},
    {src:"/public/7.JPG", alt:"1"},
-   {src:"/public/8.JPG", alt:"1"},
-   {scr:"/public/9.JPG", alt:"1"},
+   {scr:"/public/8.JPG", alt:"1"},
+   {src:"/public/9.JPG", alt:"1"},
    {src:"/public/10.JPG", alt:"1"},
    {src:"/public/11.JPG", alt:"1"},
    {src:"/public/12.JPG", alt:"1"},
@@ -30,10 +23,6 @@ const images = [
 
 ]
 const Momemt = () => {
-   const onInit = () => {
-      console.log('lightGallery has been initialized');
-  };
- 
   return (
     <div className="bg-[#F5F5DC] mt-[100px]">
      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 1000 100" preserveAspectRatio="none">
@@ -48,16 +37,9 @@ const Momemt = () => {
             6.5z">    
          </path>
       </svg>
-        <div className="flex flex-col items-center justify-center text-center mx-36">
+        <div className="flex flex-col items-center justify-center mb-16 text-center md:mx-24">
         <h2 className="txt text-[45px] font-extrabold text-[#3869fd] ">Birthday Moment</h2>
-
-        <LightGallery
-        onInit={onInit}
-        speed={500}
-        plugins={[lgThumbnail, lgZoom]}
-        className="gallery-item"
-
-    >
+      <div className='grid grid-cols-2 gap-4 mx-5 lg:grid-cols-4 md:grid-cols-3'>     
     {images.map((image,index)=>{
       return(
          <a href={image.src} key={index}>
@@ -65,7 +47,8 @@ const Momemt = () => {
          </a>
       )
     })}
-    </LightGallery>      
+    </div>
+
         </div>
     </div>
   )
