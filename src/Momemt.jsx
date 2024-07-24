@@ -1,4 +1,4 @@
-import bg from "../src/assets/neww.png"
+import bg from "../src/assets/1.jpg"
 
 const images = [
    {src:"../src/assets/yi.png", alt:"1"},
