@@ -1,12 +1,10 @@
-import bg from "../src/assets/new.png"
 import n from "../src/assets/new.png"
+import k from "../src/assets/1.png"
 
  
 const Momemt = () => {
   return (
     <div className="bg-[#F5F5DC] mt-[100px]">
-    <img src={bg} alt="" width={"420px"}/>
-
      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 1000 100" preserveAspectRatio="none">
         <path className="elementor-shape-fill" 
             fill="white"
@@ -22,7 +20,7 @@ const Momemt = () => {
         <div className="flex flex-col items-center justify-center mb-16 text-center md:mx-24">
         <h2 className="txt text-[45px] font-extrabold text-[#3869fd] mb-10">Birthday Moment</h2>
       <div className='grid grid-cols-2 gap-4 mx-5 lg:grid-cols-4 md:grid-cols-3'>     
-        <img src={n} alt="" />
+        <img src={k} alt="" />
     </div>
 
         </div>
