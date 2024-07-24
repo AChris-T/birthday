@@ -1,11 +1,6 @@
 import bg from "../src/assets/new.png"
-import React from 'react';
+import n from "../src/assets/new.JPG"
 
-const imagePaths = [
-   '../src/assets/new.png',
-   'image2.jpg',
-   'image3.jpg'
- ];
  
 const Momemt = () => {
   return (
@@ -27,14 +22,7 @@ const Momemt = () => {
         <div className="flex flex-col items-center justify-center mb-16 text-center md:mx-24">
         <h2 className="txt text-[45px] font-extrabold text-[#3869fd] mb-10">Birthday Moment</h2>
       <div className='grid grid-cols-2 gap-4 mx-5 lg:grid-cols-4 md:grid-cols-3'>     
-      {imagePaths.map((image, index) => (
-         <img
-           key={index}
-           src={`./assets/${image}`}
-           alt={`Moment ${index + 1}`}
-           className="w-full h-auto"
-         />
-       ))}
+        <img src={n} alt="" />
     </div>
 
         </div>
