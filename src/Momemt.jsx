@@ -1,24 +1,22 @@
 
-
-
 const images = [
-   {src:"../public/1.JPG", alt:"1"},
-   {src:"/public/2.JPG", alt:"1"},
-   {src:"/public/3.JPG", alt:"1"},
-   {src:"/public/4.JPG", alt:"1"},
-   {src:"/public/5.JPG", alt:"1"},
-   {src:"/public/6.JPG", alt:"1"},
-   {src:"/public/7.JPG", alt:"1"},
-   {scr:"/public/8.JPG", alt:"1"},
-   {src:"/public/9.JPG", alt:"1"},
-   {src:"/public/10.JPG", alt:"1"},
-   {src:"/public/11.JPG", alt:"1"},
-   {src:"/public/12.JPG", alt:"1"},
-   {src:"/public/13.JPG", alt:"1"},
-   {src:"/public/14.JPG", alt:"1"},
-   {src:"/public/15.JPG", alt:"1"},
-   {src:"/public/16.JPG", alt:"1"},
-   {src:"/public/17.JPG", alt:"1"}
+   {src:"../src/assets/1.JPG", alt:"1"},
+   {src:"../src/assets/2.JPG", alt:"1"},
+   {src:"../src/assets/3.JPG", alt:"1"},
+   {src:"../src/assets/4.JPG", alt:"1"},
+   {src:"../src/assets/5.JPG", alt:"1"},
+   {src:"../src/assets/6.JPG", alt:"1"},
+   {src:"../src/assets/7.JPG", alt:"1"},
+   {scr:"../src/assets/8.JPG", alt:"1"},
+   {src:"../src/assets/9.JPG", alt:"1"},
+   {src:"../src/assets/10.JPG", alt:"1"},
+   {src:"../src/assets/11.JPG", alt:"1"},
+   {src:"../src/assets//12.JPG", alt:"1"},
+   {src:"../src/assets//13.JPG", alt:"1"},
+   {src:"../src/assets//14.JPG", alt:"1"},
+   {src:"../src/assets//15.JPG", alt:"1"},
+   {src:"../src/assets//16.JPG", alt:"1"},
+   {src:"../src/assets//17.JPG", alt:"1"}
 
 
 ]
