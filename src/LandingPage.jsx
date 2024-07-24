@@ -3,27 +3,6 @@ import over from "./assets/overlay.png"
 
 import { useEffect, useState } from "react";
 
-const images = [
-  {src:"/assets/yi.png", alt:"1"},
-  {src:"../src/assets/2.JPG", alt:"2"},
-  {src:"../src/assets/3.JPG", alt:"3"},
-  {src:"../src/assets/4.JPG", alt:"4"},
-  {src:"../src/assets/5.JPG", alt:"5"},
-  {src:"../src/assets/6.JPG", alt:"6"},
-  {src:"../src/assets/7.JPG", alt:"7"},
-  {scr:"../src/assets/8.JPG", alt:"8"},
-  {src:"../src/assets/9.JPG", alt:"9"},
-  {src:"../src/assets/10.JPG", alt:"10"},
-  {src:"../src/assets/11.JPG", alt:"12"},
-  {src:"../src/assets//12.JPG", alt:"11"},
-  {src:"../src/assets//13.JPG", alt:"14"},
-  {src:"../src/assets//14.JPG", alt:"13"},
-  {src:"../src/assets//15.JPG", alt:"15"},
-  {src:"../src/assets//16.JPG", alt:"17"},
-  {src:"../src/assets//17.JPG", alt:"19"}
-
-
-]
 
 const LandingPage = () => {
     const calculateTimeLeft = () => {
@@ -85,7 +64,6 @@ const LandingPage = () => {
             52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,
             6.5z">    
          </path>
-         
       </svg>
       <div className="flex flex-col items-center justify-center md:mx-20">
       <h2 className="txt text-[62px] text-[#3869fd] flex text-center ">You Are Invited</h2>
@@ -121,11 +99,6 @@ const LandingPage = () => {
     {/*      Contact info */}
     <div>
     </div>
-    {images.map((image,index)=>{
-      return(
-         <img src={image.src} alt={images.alt} key={index}/>
-      )
-    })}
  
  </div>
   )

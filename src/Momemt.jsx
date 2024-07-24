@@ -1,3 +1,4 @@
+import bg from "./assets/pic.png"
 
 const images = [
    {src:"../src/assets/yi.png", alt:"1"},
@@ -23,6 +24,8 @@ const images = [
 const Momemt = () => {
   return (
     <div className="bg-[#F5F5DC] mt-[100px]">
+    <img src={bg} alt="" width={"420px"}/>
+
      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 1000 100" preserveAspectRatio="none">
         <path className="elementor-shape-fill" 
             fill="white"
