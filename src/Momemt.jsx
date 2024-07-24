@@ -1,5 +1,5 @@
 import bg from "../src/assets/new.png"
-import n from "../src/assets/new.JPG"
+import n from "../src/assets/new.png"
 
  
 const Momemt = () => {
