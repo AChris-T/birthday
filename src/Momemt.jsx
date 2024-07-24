@@ -1,10 +1,31 @@
-import n from "../src/assets/new.png"
-import k from "../src/assets/1.png"
+import bg from "../src/assets/neww.png"
 
- 
+const images = [
+   {src:"../src/assets/1.png", alt:"1"},
+   {src:"../src/assets/2.JPG", alt:"1"},
+   {src:"../src/assets/3.JPG", alt:"1"},
+   {src:"../src/assets/4.JPG", alt:"1"},
+   {src:"../src/assets/5.JPG", alt:"1"},
+   {src:"../src/assets/6.JPG", alt:"1"},
+   {src:"../src/assets/7.JPG", alt:"1"},
+   {scr:"../src/assets/8.JPG", alt:"1"},
+   {src:"../src/assets/9.JPG", alt:"1"},
+   {src:"../src/assets/10.JPG", alt:"1"},
+   {src:"../src/assets/11.JPG", alt:"1"},
+   {src:"../src/assets//12.JPG", alt:"1"},
+   {src:"../src/assets//13.JPG", alt:"1"},
+   {src:"../src/assets//14.JPG", alt:"1"},
+   {src:"../src/assets//15.JPG", alt:"1"},
+   {src:"../src/assets//16.JPG", alt:"1"},
+   {src:"../src/assets//17.JPG", alt:"1"}
+
+
+]
 const Momemt = () => {
   return (
     <div className="bg-[#F5F5DC] mt-[100px]">
+    <img src={bg} alt="" width={"420px"}/>
+
      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 1000 100" preserveAspectRatio="none">
         <path className="elementor-shape-fill" 
             fill="white"
@@ -20,7 +41,13 @@ const Momemt = () => {
         <div className="flex flex-col items-center justify-center mb-16 text-center md:mx-24">
         <h2 className="txt text-[45px] font-extrabold text-[#3869fd] mb-10">Birthday Moment</h2>
       <div className='grid grid-cols-2 gap-4 mx-5 lg:grid-cols-4 md:grid-cols-3'>     
-        <img src={k} alt="" />
+    {images.map((image,index)=>{
+      return(
+         <a href={image.src} key={index}>
+         <img src={image.src} alt={images.alt}/>
+         </a>
+      )
+    })}
     </div>
 
         </div>
