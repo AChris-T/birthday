@@ -1,32 +1,38 @@
-import { Gallery } from "react-grid-gallery";
+import LightGallery from 'lightgallery/react';
+
+// import styles
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+import 'lightgallery/css/lg-thumbnail.css';
+
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
+import lgZoom from 'lightgallery/plugins/zoom';
+
 
 const images = [
-  {
-     src: "../src/assets/BBT/1.JPG",
-     width: 320,
-     height: 174,
-     isSelected: true,
-     caption: "After Rain (Jeshu John - designerspics.com)",
-  },
-  {
-     src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-     width: 320,
-     height: 212,
-     tags: [
-        { value: "Ocean", title: "Ocean" },
-        { value: "People", title: "People" },
-     ],
-     alt: "Boats (Jeshu John - designerspics.com)",
-  },
-  {
-     src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-     width: 320,
-     height: 212,
-  },
-];
+   {src:"../public/1.JPG", alt:"1"},
+   {src:"/public/2.JPG", alt:"1"},
+   {src:"/public/3.JPG", alt:"1"},
+   {src:"/public/4.JPG", alt:"1"},
+   {src:"/public/5.JPG", alt:"1"},
+   {src:"/public/7.JPG", alt:"1"},
+   {src:"/public/8.JPG", alt:"1"},
+   {scr:"/public/9.JPG", alt:"1"},
+   {src:"/public/10.JPG", alt:"1"},
+   {src:"/public/11.JPG", alt:"1"},
+   {src:"/public/12.JPG", alt:"1"},
+   {src:"/public/13.JPG", alt:"1"},
+   {src:"/public/14.JPG", alt:"1"},
+   {src:"/public/15.JPG", alt:"1"},
+   {src:"/public/16.JPG", alt:"1"},
+   {src:"/public/17.JPG", alt:"1"}
 
 
+]
 const Momemt = () => {
+   const onInit = () => {
+      console.log('lightGallery has been initialized');
+  };
  
   return (
     <div className="bg-[#F5F5DC] mt-[100px]">
@@ -42,12 +48,24 @@ const Momemt = () => {
             6.5z">    
          </path>
       </svg>
-        <div className="flex flex-col justify-center items-center text-center">
+        <div className="flex flex-col items-center justify-center text-center mx-36">
         <h2 className="txt text-[45px] font-extrabold text-[#3869fd] ">Birthday Moment</h2>
 
-        <Gallery images={images} />
-        <img src="./../src/assets/BBT/1.JPG" alt="" width={"300px"}/>
+        <LightGallery
+        onInit={onInit}
+        speed={500}
+        plugins={[lgThumbnail, lgZoom]}
+        className="gallery-item"
 
+    >
+    {images.map((image,index)=>{
+      return(
+         <a href={image.src} key={index}>
+         <img src={image.src} alt={images.alt}/>
+         </a>
+      )
+    })}
+    </LightGallery>      
         </div>
     </div>
   )

@@ -59,7 +59,7 @@ const DDday = () => {
                 </div>
                 </div>
         </div>
-                <p className="flex  text-center">Please confirm your attendance by clicking this button.</p>
+                <p className="flex  text-center mb-8">Please confirm your attendance by clicking this button.</p>
                 <a href="https://docs.google.com/forms/d/1fPph5VlYVMeUWqBXlkXzqCC1Jlkw1wzp23TMPJWvzRg/edit" target="_blank" className="bg-[#88D4F2] text-white px-4 py-2 border-[2px] border-[#45B3DF] rounded-full">Attendance</a>
     </div>
   )

@@ -64,6 +64,7 @@ const LandingPage = () => {
             52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,
             6.5z">    
          </path>
+         
       </svg>
       <div className="flex flex-col items-center justify-center md:mx-20">
       <h2 className="txt text-[62px] text-[#3869fd] flex text-center ">You Are Invited</h2>
