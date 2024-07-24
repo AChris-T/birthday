@@ -1,13 +1,18 @@
 import img1 from "../src/assets/1.png"
-import img2 from "../src/assets/2.png"
-import img3 from "../src/assets/4.png"
+import img2 from "../src/assets/13.png"
+import img3 from "../src/assets/3.png"
 import img4 from "../src/assets/4.png"
 import img5 from "../src/assets/5.png"
 import img6 from "../src/assets/6.png"
 import img7 from "../src/assets/7.png"
 import img8 from "../src/assets/8.png"
-import img9 from "../src/assets/8.png"
-import img10 from "../src/assets/8.png"
+import img9 from "../src/assets/9.png"
+import img10 from "../src/assets/10.png"
+import img11 from "../src/assets/11.png"
+import img12 from "../src/assets/12.png"
+import img13 from "../src/assets/13.png"
+
+
 
 const Momemt = () => {
   return (
@@ -38,6 +43,10 @@ const Momemt = () => {
          <img src={img8} alt="img"/>
          <img src={img9} alt="img"/>
          <img src={img10} alt="img"/>
+         <img src={img11} alt="img"/>
+         <img src={img12} alt="img"/>
+         <img src={img13} alt="img"/>
+
 
     </div>
 
