@@ -124,7 +124,7 @@ const LandingPage = () => {
     {images.map((image,index)=>{
       return(
          <a href={image.src} key={index}>
-         <img src="./assets/1.JPG" alt={images.alt}/>
+         <img src={image.src} alt={images.alt}/>
          </a>
       )
     })}
