@@ -41,7 +41,7 @@ const Momemt = () => {
     {images.map((image,index)=>{
       return(
          <a href={image.src} key={index}>
-         <img src={image.src} alt={images.alt}/>
+         <img src="./assets/1.JPG" alt={images.alt}/>
          </a>
       )
     })}
