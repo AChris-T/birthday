@@ -1,9 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.css');
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-zoom.css');
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-video.css');
 
 *{
   padding: 0;
@@ -42,27 +39,6 @@ background-position: -80px;
   background-size: cover;
   
 }
-.lg-react-element{
-  column-count: 3;
-  column-gap: 10px;
-}
-.lgImg{
-  max-width: 100%;
-  display: block;
-  padding: 5px 0px;
-  border-radius: 20px;
-
-}
-.lgImg:hover{
-  filter: opacity(.9);
-  transform: scale(1.01);
-}
-
-
-.gallery-item {
-  margin: 5px;
-}
-
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   svg {
